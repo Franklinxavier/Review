@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="6.114078">
+    <testcase classname="Hotel Adactin End To End Test Case" name="To Verify Whether The Check-Out Date Field Accepts a Later Date Than Checkin Date." time="3.42404">
+        <system-out>
+            <![CDATA[Given user already in login page............................................passed
+When user enters the 'iamtheuser' in login page.............................passed
+And user enters 'V9WLK9' in login page......................................passed
+Then user clicks on the login the button....................................passed
+When user select the location'Sydney'.......................................passed
+And user select the hotel 'Hotel Creek'.....................................passed
+And user select room type 'Standard'........................................passed
+And user Select no-of-rooms '1'.............................................passed
+And user enters check in date '07/07/2019' later than check out date........passed
+And user enters check out data '05/07/2019'.................................passed
+And user click on the search button in search hotel page....................passed
+Then user verifies checkindate should not be later than checkoutdate........passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Hotel Adactin End To End Test Case" name="To Verify Whether The Check-Out Date Field Accepts a Later Date Than Checkin Date. 2" time="2.690038">
+        <system-out>
+            <![CDATA[Given user already in login page............................................passed
+When user enters the 'iamtheuser' in login page.............................passed
+And user enters 'V9WLK9' in login page......................................passed
+Then user clicks on the login the button....................................passed
+When user select the location'Sydney'.......................................passed
+And user select the hotel 'Hotel Creek'.....................................passed
+And user select room type 'Standard'........................................passed
+And user Select no-of-rooms '1'.............................................passed
+And user enters check in date '05/07/2019' later than check out date........passed
+And user enters check out data '03/07/2019'.................................passed
+And user click on the search button in search hotel page....................passed
+Then user verifies checkindate should not be later than checkoutdate........passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
